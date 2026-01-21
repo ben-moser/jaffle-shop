@@ -1,0 +1,7 @@
+models:
+  - name: customers
+    description: Customer overview data mart, offering key details for each unique customer. One row per customer.
+    access: public
+  - name: orders
+    description: Order overview data mart, offering key details for each order inlcluding if it's a customer's first order and a food vs. drink item breakdown. One row per order.
+    access: public
