@@ -5,6 +5,10 @@ models:
       - name: supply_id
         data_tests:
           - not_null
+      - name: supply_uuid
+        data_tests:
+          - unique
+          - not_null
 
 semantic_models:
   #The name of the semantic model.
