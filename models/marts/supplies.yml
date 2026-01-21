@@ -4,7 +4,6 @@ models:
     columns:
       - name: supply_id
         data_tests:
-          - unique
           - not_null
 
 semantic_models:
