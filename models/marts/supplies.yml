@@ -1,3 +1,12 @@
+models:
+  - name: supplies
+    description: Supplies model
+    columns:
+      - name: supply_id
+        data_tests:
+          - unique
+          - not_null
+
 semantic_models:
   #The name of the semantic model.
   - name: supplies
